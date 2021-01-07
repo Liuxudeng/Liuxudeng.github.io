@@ -20,23 +20,23 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="文件管理当我们打开ubuntu时（本示例用的是腾讯云ubuntu18.04.4 ）,进入的是&#x2F;home$这个路径下。我们先用pwd查看一下当前目录  发现当前目录是在根目录下的ubuntu目录下 跳转到根目录下再查看根目录下的文件  关于cd 后的路径加不加&#x2F;,在加&#x2F;时表示的是绝对路径，即从根目录下下开始的路径（可以和物理地址类比理解）。 比如当前目录为&#x2F;home&#x2F;ubuntu$即~s时，要进入s">
+  <meta name="description" content="文件管理当我们打开ubuntu时（本示例用的是腾讯云ubuntu18.04.4 ）,进入的是&#x2F;home$这个路径下。我们先用pwd查看一下当前目录  发现当前目录是在根目录下的ubuntu目录下 跳转到根目录下再查看根目录下的文件 关于cd 后的路径加不加&#x2F;,在加&#x2F;时表示的是绝对路径，即从根目录下下开始的路径（可以和物理地址类比理解）。 比如当前目录为&#x2F;home&#x2F;ubuntu$即~s时，要进入sn">
 <meta property="og:type" content="article">
 <meta property="og:title" content="linux笔记1">
-<meta property="og:url" content="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01/index.html">
+<meta property="og:url" content="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01-1/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="文件管理当我们打开ubuntu时（本示例用的是腾讯云ubuntu18.04.4 ）,进入的是&#x2F;home$这个路径下。我们先用pwd查看一下当前目录  发现当前目录是在根目录下的ubuntu目录下 跳转到根目录下再查看根目录下的文件  关于cd 后的路径加不加&#x2F;,在加&#x2F;时表示的是绝对路径，即从根目录下下开始的路径（可以和物理地址类比理解）。 比如当前目录为&#x2F;home&#x2F;ubuntu$即~s时，要进入s">
+<meta property="og:description" content="文件管理当我们打开ubuntu时（本示例用的是腾讯云ubuntu18.04.4 ）,进入的是&#x2F;home$这个路径下。我们先用pwd查看一下当前目录  发现当前目录是在根目录下的ubuntu目录下 跳转到根目录下再查看根目录下的文件 关于cd 后的路径加不加&#x2F;,在加&#x2F;时表示的是绝对路径，即从根目录下下开始的路径（可以和物理地址类比理解）。 比如当前目录为&#x2F;home&#x2F;ubuntu$即~s时，要进入sn">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01/linux%E7%AC%94%E8%AE%B01.assets/image-20201212132628223.png">
-<meta property="og:image" content="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01/linux%E7%AC%94%E8%AE%B01.assets/image-20201212132728318.png">
+<meta property="og:image" content="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01-1/image-20201212132628223.png">
+<meta property="og:image" content="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01-1/image-20201212132728318.png">
 <meta property="article:published_time" content="2021-01-07T08:30:36.000Z">
-<meta property="article:modified_time" content="2021-01-07T09:52:52.323Z">
+<meta property="article:modified_time" content="2021-01-07T10:16:35.307Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01/linux%E7%AC%94%E8%AE%B01.assets/image-20201212132628223.png">
+<meta name="twitter:image" content="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01-1/image-20201212132628223.png">
 
-<link rel="canonical" href="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01/">
+<link rel="canonical" href="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01-1/">
 
 
 <script id="page-configurations">
@@ -154,7 +154,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01-1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -178,7 +178,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-01-07 16:30:36 / Modified: 17:52:52" itemprop="dateCreated datePublished" datetime="2021-01-07T16:30:36+08:00">2021-01-07</time>
+              <time title="Created: 2021-01-07 16:30:36 / Modified: 18:16:35" itemprop="dateCreated datePublished" datetime="2021-01-07T16:30:36+08:00">2021-01-07</time>
             </span>
 
           
@@ -193,10 +193,9 @@
 
       
         <h2 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h2><p>当我们打开ubuntu时（本示例用的是腾讯云ubuntu18.04.4 ）,进入的是<code>/home$</code>这个路径下。我们先用pwd查看一下当前目录</p>
-<p><img src="linux%E7%AC%94%E8%AE%B01.assets/image-20201212132628223.png" alt="image-20201212132628223"></p>
+<p><img src="/2021/01/07/linux%E7%AC%94%E8%AE%B01-1/image-20201212132628223.png" alt="image-20201212132628223"></p>
 <p>发现当前目录是在根目录下的<code>ubuntu</code>目录下</p>
-<p>跳转到根目录下再查看根目录下的文件</p>
-<p><img src="linux%E7%AC%94%E8%AE%B01.assets/image-20201212132728318.png" alt="image-20201212132728318"></p>
+<p>跳转到根目录下再查看根目录下的文件<img src="/2021/01/07/linux%E7%AC%94%E8%AE%B01-1/image-20201212132728318.png" alt="image-20201212132728318"></p>
 <p>关于cd 后的路径加不加<code>/</code>,在加<code>/</code>时表示的是绝对路径，即从根目录下下开始的路径（可以和物理地址类比理解）。</p>
 <p>比如当前目录为<code>/home/ubuntu$</code>即<code>~s</code>时，要进入snap目录，用相对路径的话直接<code>cd snap</code>进入。如果用绝对路径那么命令为<code>cd /home/ubuntu/snap</code></p>
 <p>比如当前目录在<code>/bin$</code>下时，我们首先用tree命令查看<code>bin</code>目录下是否有往下的目录。发现并没有，因此也就无法用cd加相对命令向下</p>

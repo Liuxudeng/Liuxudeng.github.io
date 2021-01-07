@@ -145,7 +145,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/07/linux%E7%AC%94%E8%AE%B01-1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -159,7 +159,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/01/07/linux%E7%AC%94%E8%AE%B01/" class="post-title-link" itemprop="url">linux笔记1</a>
+            <a href="/2021/01/07/linux%E7%AC%94%E8%AE%B01-1/" class="post-title-link" itemprop="url">linux笔记1</a>
         </h2>
 
         <div class="post-meta">
@@ -170,7 +170,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-01-07 16:30:36 / Modified: 17:52:52" itemprop="dateCreated datePublished" datetime="2021-01-07T16:30:36+08:00">2021-01-07</time>
+              <time title="Created: 2021-01-07 16:30:36 / Modified: 18:16:35" itemprop="dateCreated datePublished" datetime="2021-01-07T16:30:36+08:00">2021-01-07</time>
             </span>
 
           
@@ -185,10 +185,9 @@
 
       
           <h2 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h2><p>当我们打开ubuntu时（本示例用的是腾讯云ubuntu18.04.4 ）,进入的是<code>/home$</code>这个路径下。我们先用pwd查看一下当前目录</p>
-<p><img src="linux%E7%AC%94%E8%AE%B01.assets/image-20201212132628223.png" alt="image-20201212132628223"></p>
+<p><img src="/2021/01/07/linux%E7%AC%94%E8%AE%B01-1/image-20201212132628223.png" alt="image-20201212132628223"></p>
 <p>发现当前目录是在根目录下的<code>ubuntu</code>目录下</p>
-<p>跳转到根目录下再查看根目录下的文件</p>
-<p><img src="linux%E7%AC%94%E8%AE%B01.assets/image-20201212132728318.png" alt="image-20201212132728318"></p>
+<p>跳转到根目录下再查看根目录下的文件<img src="/2021/01/07/linux%E7%AC%94%E8%AE%B01-1/image-20201212132728318.png" alt="image-20201212132728318"></p>
 <p>关于cd 后的路径加不加<code>/</code>,在加<code>/</code>时表示的是绝对路径，即从根目录下下开始的路径（可以和物理地址类比理解）。</p>
 <p>比如当前目录为<code>/home/ubuntu$</code>即<code>~s</code>时，要进入snap目录，用相对路径的话直接<code>cd snap</code>进入。如果用绝对路径那么命令为<code>cd /home/ubuntu/snap</code></p>
 <p>比如当前目录在<code>/bin$</code>下时，我们首先用tree命令查看<code>bin</code>目录下是否有往下的目录。发现并没有，因此也就无法用cd加相对命令向下</p>
